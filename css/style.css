@@ -444,8 +444,7 @@ fixed_nav{
 }
 
 .content {
-
-    padding: 0px 15px;
+    padding: 12px 15px 0;
 }
 
 .top-navigation > .content {
@@ -456,11 +455,14 @@ fixed_nav{
 
 .links {
   float:right;
-  
+  margin-top:1.0rem;
+
 }
 
 .links li{
   display:inline-block;
+  margin-left:1.5rem;
+
 }
 
 body{
@@ -468,4 +470,21 @@ font-family: 'Roboto', sans-serif;
 font-size: 16px; 
 color: #838994; 
 letter-spacing: 0.03em;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
