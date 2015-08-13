@@ -1,5 +1,12 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -448,7 +455,7 @@ fixed_nav{
 }
 
 .top-navigation > .content {
-    width: 970px;
+    width: 800px;
     height: 70px;
     margin: 0 auto;
 }
@@ -479,12 +486,14 @@ html {
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 500;
-
 }
 
-html {
-  box-sizing: border-box;
+.links a {
+  transition: all 0.5s ease;
+  color: gray;
+  text-decoration: none;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
+
+.links a:hover{
+  color: #000;
 }
