@@ -455,21 +455,23 @@ fixed_nav{
 }
 
 .top-navigation > .content {
-    width: 800px;
+    width: 970px;
     height: 70px;
     margin: 0 auto;
 }
 
-.links {
+.top-navigation .links {
   float:right;
-  margin-top:1.0rem;
-
+  margin-top:1rem;
+  color:#838994;
+  font-size: 16px;
+  margin-top:15px;
+  -webkit-font-smoothing: antialiased;
 }
 
-.links li{
+.top-navigation .links li{
   display:inline-block;
-  margin-left:1.5rem;
-
+  margin-left:25px;
 }
 
 body{
@@ -488,12 +490,21 @@ html {
     font-weight: 500;
 }
 
-.links a {
+.top-navigation .links a {
   transition: all 0.5s ease;
-  color: gray;
   text-decoration: none;
+  color: gray;
 }
 
-.links a:hover{
-  color: #000;
+.top-navigation .links a:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 665px;
 }
