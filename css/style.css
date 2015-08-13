@@ -540,6 +540,12 @@ h1, h3 {
     margin:1.5rem auto;
 }
 
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
+
 h3 {
   margin-top: -1.2rem;
   font-size: 1.5rem;
