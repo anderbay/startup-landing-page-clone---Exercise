@@ -547,6 +547,34 @@ button:hover {
 }
 
 h3 {
-  margin-top: -1.2rem;
-  font-size: 1.5rem;
+    margin-top: -1.2rem;
+    font-size: 1.5rem;
+}
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 10rem;
+}
+
+.cases {
+    background-color:#fff;
+    overflow:auto;
+}
+
+h2 {
+  text-align:center;
+  color:black;
+  font-weight:300;
+  margin-top:7.6rem;
+  font-size:2.68rem; 
+}
+
+.cases > .content {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
 }
