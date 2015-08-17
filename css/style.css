@@ -1,17 +1,13 @@
 <<<<<<< HEAD
 =======
 body{
-  background-color: LightGray;
-}
-
-fixed_nav{
-  max-width:100%;
+  background-color: #fff;
 }
 
 >>>>>>> origin/master
 /* Navigation Section */
 .top-navigation {
-    background-color: #fff;
+    background-color: red;
     position:fixed;
     z-index:9999;
     width:100%;
