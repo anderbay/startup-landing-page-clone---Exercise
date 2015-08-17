@@ -1,13 +1,17 @@
 <<<<<<< HEAD
 =======
 body{
+<<<<<<< HEAD
   background-color: LightGray;
+=======
+  background-color: #fff;
+>>>>>>> master
 }
 
 >>>>>>> origin/master
 /* Navigation Section */
 .top-navigation {
-    background-color: #fff;
+    background-color: red;
     position:fixed;
     z-index:9999;
     width:100%;
