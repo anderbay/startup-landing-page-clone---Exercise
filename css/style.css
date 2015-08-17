@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+body{
+  background-color: LightGray;
+}
+
+fixed_nav{
+  max-width:100%;
+}
+
+>>>>>>> origin/master
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -104,10 +115,18 @@ h3 {
     font-size: 1.5rem;
 }
 
+.icons {
+    padding: 0;
+}
+
 .devices li {
     display: inline-block;
     text-align: center;
+<<<<<<< HEAD
     width: 33.3333%;
+=======
+    width: 33.3333333%;
+>>>>>>> origin/master
     list-style: none;
 }
 
@@ -117,6 +136,7 @@ h3 {
     flex-direction:row;
     justify-content:space-around;
     margin:0 auto;
+    padding: 0;    
 }
 
 .devices img {
