@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-=======
-body{
-  background-color: #fff;
-}
-
->>>>>>> origin/master
 /* Navigation Section */
 .top-navigation {
     background-color: red;
@@ -44,6 +37,7 @@ font-family: 'Roboto', sans-serif;
 font-size: 16px; 
 color: #838994; 
 letter-spacing: 0.03em;
+background-color: #fff;
 }
 
 html {
@@ -118,11 +112,7 @@ h3 {
 .devices li {
     display: inline-block;
     text-align: center;
-<<<<<<< HEAD
-    width: 33.3333%;
-=======
     width: 33.3333333%;
->>>>>>> origin/master
     list-style: none;
 }
 
