@@ -1,17 +1,6 @@
-<<<<<<< HEAD
-=======
-body{
-<<<<<<< HEAD
-  background-color: LightGray;
-=======
-  background-color: #fff;
->>>>>>> master
-}
-
->>>>>>> origin/master
 /* Navigation Section */
 .top-navigation {
-    background-color: red;
+    background-color: #fff;
     position:fixed;
     z-index:9999;
     width:100%;
@@ -48,6 +37,8 @@ font-family: 'Roboto', sans-serif;
 font-size: 16px; 
 color: #838994; 
 letter-spacing: 0.03em;
+background-color: #fff;
+margin:0;
 }
 
 html {
@@ -122,11 +113,7 @@ h3 {
 .devices li {
     display: inline-block;
     text-align: center;
-<<<<<<< HEAD
-    width: 33.3333%;
-=======
     width: 33.3333333%;
->>>>>>> origin/master
     list-style: none;
 }
 
@@ -196,15 +183,15 @@ h2 {
   margin:0.5rem 1.25rem;
 }
 
-.social .twitter {
+.fa-twitter {
   color:#55acee;
 }
 
-.social .facebook {
+.fa-facebook {
   color:#4c66a4;
 }
 
-.social .instagram {
+.fa-instagram {
   color:#3f729b;
 }
 
@@ -221,6 +208,8 @@ h2 {
   border-radius: 30px;
   padding:0.625rem;
   margin:1.25rem 0.25rem;
+  box-sizing: border-box;
+  vertical-align: baseline;
 }
 
 .join{
